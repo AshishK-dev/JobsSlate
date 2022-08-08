@@ -1,0 +1,225 @@
+.search-box-container_jd{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  } 
+
+  .search-box_jd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #0084ce;
+    border-radius: 10px;
+    background-color: white;
+    height: 45px;
+    width: 690px;
+    border-radius: 20px;
+    margin-top: 25px;
+  }
+  .details_btn_js1{
+    border-radius: 25px;
+    border: 0px solid #0084ce;
+    background-color: #0084ce;
+    color: aliceblue;
+    width: 100px;
+    height: 35px;
+    margin-left: 85%;
+    position: relative;
+    top: -55px;
+  }
+  .cs_alert_btn_js{
+    border-radius: 25px;
+    border: 0px solid #0084ce;
+    background-color: #0084ce;
+    color: aliceblue;
+    width: 200px;
+    height: 48px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  .Bar_jd{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;  
+  }
+.magnify_jd{
+    margin-left: 20px;
+  
+  }
+  .job_profile_jd{
+    margin-right: 90x;
+  }
+  .job_loc12_jd{
+    margin-left: 60px;
+  }
+  .job_area_jd{
+  margin-left: 10px;
+  }
+  .job_loc12_jd{
+    width: 15px;
+    height: 15px;
+  }
+  .company_logo_jd{
+    height: 100px;
+    width: 100px;
+    top: 25px;
+    left: 110px;    
+    position: relative;
+    
+    
+  }
+  .main_container_jd{
+    display: flex;
+    height: 60%;
+    gap: 25px;
+  }
+.suggestions_jd{
+    display: block;
+    border: 1px solid whitesmoke;
+    height: 700px;
+    width: 900px;
+    
+    text-align: center;
+    background-color: white ;
+    margin-top: 10px;
+    box-shadow: 0.25px 0.5px #333333;
+  
+}
+
+.kompany_jd{
+    display: flex;
+    gap: 50px;
+    margin-left:100px;
+    width: 500px;
+    }
+.company_ng_jd{
+    color: #001B4C;
+    margin-left: 34px;
+}    
+.j_result{
+    width: 65%;
+    height: 100%;
+    border: 2px solid transparent;
+    box-shadow: 2px 6px 2px 6px gray;
+}
+.line_jd{
+    border: 2px solid whitesmoke;
+   position: relative;
+   bottom: 30px;
+}
+.sidebar{
+    width: 30%;
+    height: 400px;
+    
+}
+.wClient_jd{
+    margin-top: 5px;
+    
+}
+
+.j_result_row1{
+    display: flex;
+}
+.mini_headings{
+    display: flex;
+    
+}
+.j_result_row1_heading_company_name{
+    padding-left: 10px;
+}
+.j_result_row1_heading_company_location{
+    padding-left: 10px;
+}
+
+.j_search_btn{
+    border-radius: 25px;
+    border: 0px solid #0084CE;
+    background-color: #0084CE;
+    color: aliceblue;
+    width: 80px;
+    height: 35px;
+}
+.job_search_btn {
+    float: right;
+}
+.partition_border{
+    border: 1px solid grey;
+}
+.similar_positions{
+    position: relative;
+    bottom: 65px;
+
+}
+.similar_positions_job1{
+    border: 0.5px solid whitesmoke;
+    box-shadow: 0.25px 0.5px whitesmoke;
+    color: #0084CE;
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    background: white;
+    margin-left: 5px;
+    
+    
+   
+}
+.j_search_btn2{
+    border-radius: 25px;
+    border: 0px solid #0084CE;
+    background-color: #0084CE;
+    color: aliceblue;
+    width: 80px;
+    height: 35px;
+}
+.ngImage{
+border: 1px solid gray;
+margin-left: 25px;
+}
+
+.js_jd{
+    position: relative;
+    right: 20%;
+}
+.nameConv_jd{
+    display: flex;
+    margin-left: 58px;
+    position: relative;
+    bottom: 20px;
+  }
+.jobType_jd{
+    margin-right: 5%;
+    margin-bottom: 20px;
+    margin-left: 9%;
+    color: #4D4D4D;
+  }
+
+.fontTime_jd{
+    font-weight: bold;
+    color: black;  
+  }
+.jd_Title{
+    position: relative;
+    right: 40%;
+
+}
+.sp_font{
+    font-size: 10px;
+    display: flex;
+    color: #4D4D4D;
+    gap: 15px;
+    
+}
+.line2_jd{
+    border: 2px solid whitesmoke;
+
+}
+
+.details_btn_js2{
+    border-radius: 25px;
+    border: 0px solid #0084ce;
+    background-color: #0084ce;
+    color: aliceblue;
+    width: 100px;
+    height: 35px;
+}

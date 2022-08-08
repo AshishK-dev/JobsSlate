@@ -1,0 +1,129 @@
+.main_container_ei{
+    position: relative;
+    top: 20px;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.progression_list_ei{
+    height: 80px;
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 0px;
+    background-color: white;
+    border: 1px solid  #CCCCCC ;
+       
+}
+.firstRound{
+  border-radius: 50%;
+  height: 20px;
+  border: 2px solid black;
+  width: 20px;
+}
+.fRound{
+  border-radius: 50%;
+  height: 20px;
+  background-color: #00DDAA;
+  width: 20px;
+}
+.firstBar{
+    border: 2px solid grey;
+    width: 250px;
+}
+.fBar{
+    border: 2px solid #00DDAA;
+    width: 250px;
+}
+
+.wholeBar_ei{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px; 
+}
+.sHead_edu{
+    color: #808080;
+}
+.fHead_edu{
+    position: relative;
+    top: 20px;
+}
+.educationalBio_ed{
+    margin-left: 20px;
+    
+}
+.eduDeatils{
+    margin-left: 11%;
+    margin-top: 25px;
+    width: 80%;
+    height: 85%;
+    background-color: white;
+    border: 1px solid  #CCCCCC
+
+}
+
+.heading_edu{
+    margin-left: 20px;
+}
+.quali_ed{
+  display: block;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 0px solid #0084ce;
+  background-color: #0084ce;
+  color: aliceblue;
+  width: 160px;
+  height: 30px;
+  margin-top: 10px; 
+}
+.S_quali_ed{
+   display: block;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 1px solid #0084ce;
+  background-color:white;
+  color: black;
+  width: 85px;
+  height: 30px;
+}
+.option_container{
+  display: flex;
+  gap: 15px;
+}
+.course_box{
+    display: block;
+    margin-bottom: 15px;
+}
+.PassingYear{
+    display: block;
+    margin-bottom: 15px;
+}
+.passing_year{
+    margin-top: 15px
+}
+.detes_ed{
+    display: block;
+   
+    
+}
+.suggest_edu{
+    font-size: smaller;
+    color: #808080;
+    position: relative;
+}
+.suggesteion_ed{
+    margin-bottom: 10px
+}
+.submit_continue{
+    margin-left: 25px;
+}
+.sug_edu{
+    margin-top: 10px;
+}
+.course_box{
+    border: 1px solid #CCCCCC;
+}
+.PassingYear{
+    border: 1px solid #CCCCCC;
+}

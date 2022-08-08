@@ -1,0 +1,27 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    word-spacing: 0px;
+    justify-content: space-between;   
+    max-width: 1190px;
+    margin: 0px auto;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;  
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #0084CE;
+}
+.navbar li a:hover{
+    color: green
+}

@@ -1,0 +1,61 @@
+    .self_container_rs{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    }
+    .log_details_rs{
+        margin-left: 200px;
+        border: 1px solid transparent;
+        width: 400px;
+        height: 800px;
+        justify-content: center;
+        margin-top: 65px;
+        background: white;
+        box-shadow:  0px 0px 10px #0084CE;       
+    }
+    .Head_rs{
+        margin-left: 40px;
+    }
+    .Signups_btns{
+        display: flex;
+        gap: 50px;
+        margin-left: 35px;
+    }
+    .SignIns_btn{
+        border-radius: 25px;
+        width:150px;
+        height:35px;
+        border-color: #0084CE;
+        background-color: white;
+    }
+    .text_rs{
+        color: #0084CE;
+    }
+    .alert_btn_rs{
+        border-radius: 25px;
+        border: 0px solid #0084CE;
+        background-color: #0084CE;
+        color: aliceblue;
+        width: 250px;
+        height: 35px;
+    }
+    .TnC_rs{
+        color: #0084CE;
+    }
+    .signup_Details_rs{
+        width: 260px;
+        height: 500px;
+        margin-left: 30px;
+        margin-top: 10px;
+        padding: 40px;
+    }
+    .Entries_rs{
+        margin-bottom: 15px;
+    }
+    .duration{
+        gap: 10px;
+    }
+    .Terms_rs{
+        font-size: 11px;
+        color: grey;
+    }

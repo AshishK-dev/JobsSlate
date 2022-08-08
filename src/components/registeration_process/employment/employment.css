@@ -1,0 +1,193 @@
+.main_container_ei{
+    position: relative;
+    top: 20px;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.progression_list_ei{
+    height: 80px;
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 0px;
+    background-color: white;
+    border: 2px solid white;
+       
+}
+.firstRound{
+  border-radius: 50%;
+  height: 20px;
+  border: 2px solid black;
+  width: 20px;
+}
+.fRound{
+  border-radius: 50%;
+  height: 20px;
+  background-color: #00DDAA;
+  width: 20px;
+}
+.firstBar{
+    border: 2px solid grey;
+    width: 250px;
+}
+.fBar{
+    border: 2px solid #00DDAA;
+    width: 250px;
+}
+
+.wholeBar_ei{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px; 
+}
+.container_emp{ 
+    padding: 4px;
+    width: 80%;
+    margin-left:10.8% ;
+    background-color: white;
+    margin-top: 20px;
+}
+.ml_container_emp{
+    margin-left: 25px;
+}
+.firstHeading{
+    font: bold;
+}
+.secondHeading{
+    font-size: 12px;
+    color:#808080 ;
+    position: relative;
+    bottom: 12px;
+}
+.decesion{
+    display: flex;
+    gap: 10px;
+}
+.decesionOption_Y{
+    border-radius: 15px;
+    width: 50px;
+    height: 28px;
+    background-color: #0084CE;
+    color: white;
+    border: #0084CE;
+}
+.decesionOption_N{
+    border-radius: 15px;
+    width: 50px;
+    height: 28px;
+    background-color: white;
+    color: #0084CE;
+    border-color: #0084CE;
+    border: 0.5px solid;
+}
+.empDuration{
+    margin-top: 15px;
+}
+.empDuration_time{
+    display: flex;
+    gap: 10px;
+}
+.entryBox{
+    width: 110px;
+    height: 25px;
+    border: 1px solid #CCCCCC;
+}
+.empCompany{
+    margin-top: 15px;
+}
+.c_entryBox{
+    width: 236px;
+    height: 25px;
+    border: 1px solid #CCCCCC;
+}
+.empJobTitle{
+    margin-top: 15px;
+}
+.empCurrentCity{
+    margin-top: 15px;
+}
+.suggest_emp{
+    margin-top: 15px;
+    color:#808080
+
+}
+.suggest_emp1{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.openSuggestions{
+    border-radius: 15px;
+    width: 100px;
+    height: 28px;
+    background-color: white;
+    border-color: #0084CE;
+    border: 0.5px solid #0084CE;
+}   
+.K_entryBox{
+    width: 236px;
+    height: 60px;
+    border: 1px solid #CCCCCC;   
+}
+.entryBox_ws{
+    width: 110px;
+    height: 25px;
+    border: 1px solid #CCCCCC;
+    background-color: #EAEAEA;
+}
+.entryBox_as{
+    width: 40px;
+    height: 25px;
+    border: 1px solid #CCCCCC;
+    
+}
+.entryBox_asNumber{
+    width: 184px;
+    height: 25px;
+    border: 1px solid #CCCCCC;
+    
+}
+.empSalary{
+    margin-top: 15px   
+}
+.empAnnualSalary{
+    display: flex;
+    gap: 10px;
+}
+.currentJoining{
+    margin-top: 15px;
+}
+.joinDate{
+    border-radius: 15px;
+    width: 140px;
+    height: 28px;
+    background-color: #0084CE;
+    color: white;
+    border: #0084CE;
+}
+.joiningDuration{
+    margin-top: 8px;
+}
+.cross{
+    margin-left: 12px;
+}
+.empDepartment{
+    margin-top: 15px;
+}
+.keySkills{
+    margin-top: 15px;
+}
+.SnA{
+    margin-top: 35px;
+}
+.saveNcontuniue{
+    border-radius: 18px;
+    width: 170px;
+    height: 35px;
+    background-color: #0084CE;
+    color: white;
+    border: #0084CE;
+    margin-bottom: 15px;
+}

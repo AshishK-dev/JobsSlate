@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.progression_list_bd{
+    display: flex;
+    border: 2px solid rebeccapurple;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 65px;
+    background-color: white;
+       
+}
+.firstRound{
+  border-radius: 50%;
+  height: 20px;
+  border: 2px solid black;
+  width: 20px;
+  
+}
+.firstBar{
+    border: 2px solid grey;
+    width: 250px;
+    
+}
+.bggreen{
+    background-color: green;
+}
+.wholeBar{
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

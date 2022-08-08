@@ -1,0 +1,199 @@
+.main_container_hp{
+    position: relative;
+    top: 20px;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.progression_list_hp{
+    height: 80px;
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 0px;
+    background-color: white;
+    border: 1px solid  #CCCCCC ;
+       
+}
+.firstRound{
+  border-radius: 50%;
+  height: 20px;
+  border: 2px solid black;
+  width: 20px;
+}
+.fRound{
+  border-radius: 50%;
+  height: 20px;
+  background-color: #00DDAA;
+  width: 20px;
+}
+.firstBar{
+    border: 2px solid grey;
+    width: 250px;
+}
+.fBar{
+    border: 2px solid #00DDAA;
+    width: 250px;
+}
+
+.wholeBar_hp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px; 
+}
+.sHead_edu{
+    color: #808080;
+}
+.fHead_edu{
+    position: relative;
+    top: 20px;
+}
+.educationalBio_ed{
+    margin-left: 20px;
+    
+}
+.eduDeatils{
+    margin-left: 11%;
+    margin-top: 25px;
+    width: 80%;
+    height: 95%;
+    background-color: white;
+    border: 1px solid  #CCCCCC
+
+}
+
+.heading_edu{
+    margin-left: 20px;
+}
+.quali_ed{
+  display: block;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 0px solid #0084ce;
+  background-color: #0084ce;
+  color: aliceblue;
+  width: 160px;
+  height: 30px;
+  margin-top: 10px; 
+}
+.S_quali_ed{
+   display: block;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 1px solid #0084ce;
+  background-color:white;
+  color: black;
+  width: 85px;
+  height: 30px;
+}
+.option_container{
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.course_box{
+    display: block;
+    margin-bottom: 15px;
+}
+.PassingYear{
+    display: block;
+    margin-bottom: 15px;
+}
+.passing_year{
+    margin-top: 15px
+}
+.detes_ed{
+    display: block;
+   
+    
+}
+.suggest_edu{
+    font-size: smaller;
+    color: #808080;
+    position: relative;
+}
+.suggesteion_hp{
+    margin-top: 10px;
+
+}
+.submit_continue_hp{
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.sug_edu{
+    margin-top: 10px;
+}
+.course_box{
+    border: 1px solid #CCCCCC;
+}
+.PassingYear{
+    border: 1px solid #CCCCCC;
+}
+.Rhead{
+    font-size: smaller;
+}
+.resumeH_hp{
+    border: 1px solid #CCCCCC;
+}
+.pjt_hp{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.pre_btn_hp{
+    border-radius: 50px;
+    background-color: #0084ce;
+    color: white;
+    border: 1px solid #0084ce;
+    width: 120px;
+    height: 25px;   
+}
+.tc_btn_hp{
+    border-radius: 50px;
+    
+    color: #0084ce;
+    border: 1px solid #0084ce;
+    width: 180px;
+    height: 25px;
+}
+.pj_hp{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.cour_hp{
+    margin-top: 10px;
+}
+.pr_hp{
+    border-radius: 50px;
+    background-color: #0084ce;
+    color: white;
+    border: 1px solid transparent;
+    width: 120px;
+    height: 25px;    
+}
+.p_hp{
+    border-radius: 50px;
+    background-color: #0084ce;
+    color: white;
+    border: 0px solid transparent;
+    width: 120px;
+    height: 25px;
+}
+.pres_hp{
+
+    border-radius: 50px;
+    background-color: #0084ce;
+    color: white;
+    border: 1px solid transparent;
+    width: 150px;
+    height: 25px;
+}
+.pM_hp{
+    border-radius: 50px;
+    color: #0084ce;
+    border: 1px solid transparent;
+    width: 100px;
+    height: 25px;
+}

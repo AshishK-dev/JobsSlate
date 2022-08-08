@@ -1,0 +1,204 @@
+.background_jl{
+    background-size: contain;
+}
+.search-box-container_jl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .search-box_jl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #0084ce;
+    border-radius: 6px;
+    background-color: white;
+    height: 45px;
+    width: 690px;
+    border-radius: 20px;
+    margin-top: 25px;
+  }
+  .cs_alert_btn_js{
+    border-radius: 25px;
+    border: 0px solid #0084ce;
+    background-color: #0084ce;
+    color: aliceblue;
+    width: 200px;
+    height: 48px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  .Bar_jl{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+  }
+.magnify_jl{
+    margin-left: 20px;
+  }
+  .job_profile_jl{
+    margin-right: 90x;
+  }
+  .job_loc12_jl{
+    margin-left: 60px;
+  }
+  .job_area_jl{
+  margin-left: 10px;
+  }
+  .job_loc12_jl{
+    width: 15px;
+    height: 15px;
+  }
+  .secondary_container{
+    display: flex;
+    gap: 45px;
+    margin-top: 35px;
+    justify-content: center;
+    background-color: white;
+  }
+.f_jl{
+  font-size: 22px;
+}
+.loc_filter{
+  display: flex;
+  justify-content:space-between;
+}
+.locnames{
+  display: block;
+  font-size: small;
+  color: #808080;
+}
+.number_pune{
+  color: #666666;
+}
+.locPune{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.more_cities{
+  color: #0084ce;
+  font-size: medium;
+  margin-left: 5px;
+}
+.partition_line{
+  border: 0.5px solid #e5e5e5;
+  margin-top: 10px;
+}
+  .filter_container{
+    width: 300px;
+    height: 650px;
+    border: 1px solid   #e5e5e5;
+    
+  }
+  .salary_filter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  }
+  .exp_filter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .jt_filter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .postedBy_filter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .edu_filter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .industries_filter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }  
+  .suggestions_jl{
+    display: block;
+    border: 1px solid #e5e5e5;
+    height: 160px;
+    width: 1000px;
+    text-align: center;
+    background-color: white ;
+    margin-top: 10px;
+    box-shadow: 0.25px 0.5px #333333;
+  
+  }
+  .line_jl{
+    position: relative;
+    top: -125%;
+    border-bottom: 0.5px solid #e5e5e5;
+    
+  }
+  .company_logo_jl{
+    height: 100px;
+    width: 100px;
+    z-index: 10;
+    box-shadow: 1px 2px #4D4D4D;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    transform: translate(-30px, 0px);
+    top: -90%;
+    
+  }
+  .details_btn_jl{
+    border-radius: 25px;
+    border: 0px solid #0084ce;
+    background-color: #0084ce;
+    color: aliceblue;
+    width: 100px;
+    height: 35px;
+    margin-left: 85%;
+    position: relative;
+    top: -55px;
+  }
+  .kompany_jl{
+  display: flex;
+  gap: 50px;
+  margin-left:90px;
+  width: 500px;
+  }
+  .jobContent_jl{
+    font-size: 14px;
+    color:#33333380 ;
+    position: relative;
+    top: -20px;
+  }
+  
+  .jobType_jl{
+    margin-right: 5%;
+    margin-bottom: 20px;
+    margin-left: 9%;
+  }
+  .fontTime_jl{
+    font-weight: bold;
+    color: black;
+    
+  }
+  .company_ng_jl{
+    color: #001B4C;
+  }
+  .js_jl{
+    margin-left: -55%;
+    margin-bottom: 10px;
+  }
+  .nameConv_jl{
+    display: flex;
+  }
+  .wClient_jl{
+    margin-left: 88px;
+    text-align: left;
+    position: relative;
+    top: -10px;
+  }

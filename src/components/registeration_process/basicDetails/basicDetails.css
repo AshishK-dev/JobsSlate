@@ -1,0 +1,126 @@
+.main_container_bd{
+    position: relative;
+    top: 20px;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.progression_list_bd{
+    height: 80px;
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 0px;
+    background-color: white;
+    border: 2px solid white;
+       
+}
+.firstRound{
+  border-radius: 50%;
+  height: 20px;
+  border: 2px solid black;
+  width: 20px;
+}
+.firstBar{
+    border: 2px solid grey;
+    width: 250px;
+}
+.bggreen{
+    background-color: green;
+}
+.wholeBar{
+    display: flex;
+    align-items: center; 
+}
+.secondary_container_bd{
+    background-color: white;
+    width: 80.5%;
+    height: 80%;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+.usb_bd{
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+}
+.bDetails{
+    height: 4%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.head_bd{
+    font-size: 20px;
+}
+.sHead{
+    font-size: small;
+    margin-left: 15px;
+}
+.pic_bD{
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.dummy_bd{
+    border-radius: 50px;
+    background-color: #CCCCCC;
+}
+.basicEntries_bd{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.fullName_bd{
+    display: block;
+}
+.e_bd{
+    font-size: 13px;
+    color:#808080;
+}
+.ip_bd{
+    border: 1px solid;
+    border-color: #CCCCCC;
+}
+.changePass_bd{
+    margin-left: 15px;
+    margin-top: 4%;
+}
+.cPass{
+    font-size: large;
+}
+.passCode_bd{
+    display: flex;
+    gap: 50px;
+    margin-top: 18px;
+}
+.p_bd{
+    display: block;
+}
+.entryPassword_bd{
+    margin-left: 15px;
+}
+.p_bd{
+    font-size: 13px;
+    color:#808080;
+}
+.saveNcancel_bd{
+    display: flex;
+    margin-top: 20%;
+    margin-left: 15px;
+}
+.Save_BD{
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #0084CE;
+    color: white;
+    border: 1px solid #0084CE;   
+}
+.Cancel_BD{
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: white;
+    color:  #0084CE;
+    border: 1px solid white;
+}

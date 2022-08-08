@@ -1,0 +1,141 @@
+.top_container_prof{
+    display: flex;
+    max-width: 980px;
+    height: 160px;
+    margin-left: 10%;
+    background-color:white;
+}
+.profilePix{
+    border: 1px solid green;
+    border-radius: 50px;
+    background-color:#808080;
+    margin-left: 20px;
+}
+.picName{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.name_prof{
+    display: block;
+    margin-left: 10px;
+}
+.fHead{
+    font-size: 30px;
+}
+.sHead{
+    font-size: 15px;
+    color: #808080;
+}
+.infoBox_prof{
+    display: flex;
+     flex-wrap: wrap; 
+    width: 50%;
+    align-items: center;
+    gap: 50px;
+}
+.area_prof{
+    margin-bottom: 10px;
+}
+.duration_prof{
+    margin-bottom: 10px;
+}
+.package_prof{
+    margin-bottom: 10px;
+}
+.mobNumber_prof{
+    margin-bottom: 10px;
+}
+.email_prof{
+margin-bottom: 10px;
+}
+.email-prof{
+    margin-bottom: 10px; 
+}
+.bottom_container_prof{
+    display: flex;
+    margin-left: 10%;
+    gap: 20px;
+    margin-top: 10px;
+}
+.fields_prof{
+    width: 220px;
+    height: 500px;
+    background-color: white;
+}
+.f_prof{
+   margin-top: 18px;
+   margin-left: 30px;
+
+}
+.resume_prof{
+    display: flex;
+    color: #0084CE;  
+     
+}
+.edu_prof{
+    display: flex;
+}
+.resume_font{
+    color: #0084CE;
+}
+.proj_prof{
+    display: flex;
+    
+}
+.R_prof{
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.Resume_line_prof{
+    font-size: small;
+    color: #808080;
+}
+.resume_upload{
+    width: 735px;
+    background-color: white;
+    height: 670px;
+}
+.R_2022_prof{
+    font-size: 15px;
+}
+.RS_prof{
+    margin-top: 1px;
+    margin-left: 10%;
+    
+}
+.Resume_up_prof{
+    margin-left: 10%;
+    margin-top: 18px;
+    
+    
+}
+.downdel{
+    display: flex;
+    width: 298px;   
+    justify-content: space-between;
+}
+.Down_Del{
+    color: #0084CE;
+}
+.Del_down{
+    color: #FF8181;
+}
+.upResume_prof{
+    width: 250px;
+    position: relative;
+    height: 30px;
+}
+.Up_res_prof{
+    width: 250px;
+    background-color: #0084CE;
+    border-radius: 50px;
+    height: 30px;
+    color: white;
+    border: #0084CE;   
+}
+.format_prof{
+    font-size: small;
+    color: #808080;
+}
