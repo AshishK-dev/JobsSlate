@@ -6,7 +6,7 @@ import GoogLe from '../../assests/iconsnvectors/Google.svg';
 import LinkedIn from '../../assests/iconsnvectors/linkedin.svg';
 import { Link } from "react-router-dom";
 
-const Company_Signup = () => {
+const User_Signup = () => {
   return (
     <div
       className="BKground"
@@ -17,44 +17,51 @@ const Company_Signup = () => {
           <img src={SearchJob} alt="text" style={{ width: 450, height: 450 }}/>
         </div>
         <div className="log_details_rs">
+          <div className="loginDirect"><span className="smallfont">Alredy have an account?<span className="dLog">Login</span></span></div>
           <h2><span className="Head_rs">Get started</span></h2>
           <div className="Signups_btns">
           <div className="signinGoogle_rs">
-              <button className="SignIns_btn"><img src={GoogLe} alt="text" style={{ width: 13, height: 10 }}/> Signup with <span className="text_rs">Google</span></button>
+              <button className="SignIns_btn"><img className="Gsign" src={GoogLe} alt="text" style={{ width: 8, height: 10 }}/> Signup with <span className="text_rs">Google</span></button>
             </div>
             <div className="signinGoogle_rs">
-              <button className="SignIns_btn"><img src={LinkedIn} alt="text" style={{ width: 8, height: 9 }}/> Signup with <span className="text_rs">Linkedin</span></button>
+              <button className="SignIns_btn"><img className="Gsign" src={LinkedIn} alt="text" style={{ width: 8, height: 9 }}/> Signup with <span className="text_rs">Linkedin</span></button>
             </div>
             </div>
-          <div className="signup_Details_rs">
+            <div className="line_sp">
+            <div className="line_sm"></div>
+            <div className="option_sp"><span className="smallfont">or</span></div>
+            <div className="line_sm"></div>
+            </div>
+            <div className="signup_Details_rs">
             <div className="Entries_rs">
-              Full number
-              <input type="text" placeholder="Enter company name" style = {{height:33, width:250 }}/>
-            </div>
-            <div className="Entries_rs">
-              Mobile number
-              <input type="number" placeholder="Enter mobile number" style = {{height:33, width:250}}/>
-            </div>
-            <div className="Entries_rs">
-              Email-id
-              <input type="text" placeholder="Enter email id" style = {{height:33, width:250}}/>
+              <span className="fSize"> Full name</span>
+              <input className="ip_signup" type="text" placeholder="Enter company name" style = {{height:30, width:250 }}/>
             </div>
             <div className="Entries_rs">
-              Work status
+            <span className="fSize"> Mobile number</span>
+              <input className="ip_signup" type="number" placeholder="Enter mobile number" style = {{height:30, width:250}}/>
+            </div>
+            <div className="Entries_rs">
+            <span className="fSize"> Email</span>
+              <input className="ip_signup" type="text" placeholder="Enter email id" style = {{height:33, width:250}}/>
+            </div>
+            <div className="Entries_rs">
+            <span className="fSize"> Work status</span>
               <div className="duration">
               <button className="duration_sp">I'm experienced</button>
               <button className="duration_sp">I'm a fresher</button>
               </div>
             </div>
             <div className="Entries_sp">
-              Resume
+            <span className="fSize"> Resume</span>
               <div className="res_option">
-              <button  className="resume_sp">Upload resume</button>
+              <div className="res_sp"><button  className="resume_sp">Upload resume</button></div>
+              <div className="for_sp"><span className="smallfont">DOC, DOCx, PDF, | Max: 2 MB</span></div>
               </div>          
               </div>
             <div className="Entries_rs">
-               Set Password
-              <input type="password" placeholder="Set password" style = {{height:33, width:250}}/>
+            <span className="fSize"> Set password</span>
+              <input className="ip_signup" type="password" placeholder="Set password" style = {{height:33, width:250}}/>
             </div>
             <div className="Entries_rs"><div className="Terms_rs">By clicking Register,you agree to the <span className="TnC_rs"> terms and conditions </span> &  
              <span className="TnC_rs"> privacy policy </span> of jobsslate.com</div>
@@ -69,4 +76,4 @@ const Company_Signup = () => {
   );
 };
 
-export default Company_Signup;
+export default User_Signup;
