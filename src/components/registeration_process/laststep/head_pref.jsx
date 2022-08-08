@@ -27,11 +27,11 @@ const Head_pref = () => {
             <div className="qualification">
           <div className="rHead_hp"><span className='Rhead'>Resume headline</span>
           </div>
-          <input className='resumeH_hp' type="text" placeholder="Enter address" style = {{height:73, width:250}} />
+          <input className='resumeH_hp' type="text" placeholder="UI designer with BA in fine arts currently living in gurgaon" style = {{height:73, width:250}} />
             
             <div className="suggesteion_ed">
              <div className="sug_edu"> <span className='suggest_edu'> Suggestions</span></div>
-             <input className='resumeH_hp' type="text" placeholder="Enter address" style = {{height:73, width:250}} />
+             <input className='resumeH_hp' type="text" placeholder="UI designer with BA in fine arts currently living in gurgaon" style = {{height:73, width:250}} />
             </div>
             </div>
             <div className="course_ed"><span className='Rhead'>Preferred job type</span>
