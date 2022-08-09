@@ -7,11 +7,18 @@
         margin-left: 200px;
         border: 1px solid transparent;
         width: 400px;
-        height: 800px;
+        height: 750px;
         justify-content: center;
         margin-top: 30px;
         background: white;
         border: 1px solid #CCCCCC;       
+    }
+    .s_button_up{
+        font-size: 10px;
+        padding: 1px 1px 1px 1px;
+    }
+    .Gsign{
+       margin-left: 5px;
     }
     .Head_rs{
         margin-left: 40px;
@@ -19,19 +26,25 @@
     .Signups_btns{
         display: flex;
         gap: 10px;
-        margin-left: 32px;
+        margin-left: 65px;
     }
     .ip_signup{
         border: 1px solid  #CCCCCC;
+        border-radius: 5px;
     }
-
     .SignIns_btn{
         border-radius: 25px;
-        width:160px;
+        width:140px;
         height:35px;
         border-color: #0084CE;
         background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #0084CE;
+        
     }
+  
     .text_rs{
         color: #0084CE;
     }
@@ -68,6 +81,7 @@
         padding: 8px;
         background-color: white;
         border: 1px solid #0084CE;
+        border-radius: 5px;
     }
     .resume_sp{
         display: block;
@@ -104,5 +118,8 @@
         display: flex;
         justify-content: space-between;
     }
-    
+    .line_sm{
+        border: 1px solid black;
+         
+    }
     
