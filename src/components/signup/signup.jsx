@@ -21,10 +21,10 @@ const User_Signup = () => {
           <h2><span className="Head_rs">Get started</span></h2>
           <div className="Signups_btns">
           <div className="signinGoogle_rs">
-              <button className="SignIns_btn"><img className="Gsign" src={GoogLe} alt="text" style={{ width: 8, height: 10 }}/> Signup with <span className="text_rs">Google</span></button>
+              <button className="SignIns_btn"><img className="Gsign" src={GoogLe} alt="text" style={{ width: 15, height: 15 }}/> <span className="s_button_up"> Signup with <span className="text_rs">Google</span></span></button>
             </div>
             <div className="signinGoogle_rs">
-              <button className="SignIns_btn"><img className="Gsign" src={LinkedIn} alt="text" style={{ width: 8, height: 9 }}/> Signup with <span className="text_rs">Linkedin</span></button>
+              <button className="SignIns_btn"><img className="Gsign" src={LinkedIn} alt="text" style={{ width: 15, height: 15 }}/><span className="s_button_up"> Signup with <span className="text_rs">Linkedin</span></span></button>
             </div>
             </div>
             <div className="line_sp">
@@ -35,15 +35,15 @@ const User_Signup = () => {
             <div className="signup_Details_rs">
             <div className="Entries_rs">
               <span className="fSize"> Full name</span>
-              <input className="ip_signup" type="text" placeholder="Enter company name" style = {{height:30, width:250 }}/>
+              <input className="ip_signup" type="text" placeholder="Enter company name" style = {{height:30, width:270 }}/>
             </div>
             <div className="Entries_rs">
             <span className="fSize"> Mobile number</span>
-              <input className="ip_signup" type="number" placeholder="Enter mobile number" style = {{height:30, width:250}}/>
+              <input className="ip_signup" type="number" placeholder="Enter mobile number" style = {{height:30, width:270}}/>
             </div>
             <div className="Entries_rs">
             <span className="fSize"> Email</span>
-              <input className="ip_signup" type="text" placeholder="Enter email id" style = {{height:33, width:250}}/>
+              <input className="ip_signup" type="text" placeholder="Enter email id" style = {{height:33, width:270}}/>
             </div>
             <div className="Entries_rs">
             <span className="fSize"> Work status</span>
@@ -61,7 +61,7 @@ const User_Signup = () => {
               </div>
             <div className="Entries_rs">
             <span className="fSize"> Set password</span>
-              <input className="ip_signup" type="password" placeholder="Set password" style = {{height:33, width:250}}/>
+              <input className="ip_signup" type="password" placeholder="***************" style = {{height:33, width:250}}/>
             </div>
             <div className="Entries_rs"><div className="Terms_rs">By clicking Register,you agree to the <span className="TnC_rs"> terms and conditions </span> &  
              <span className="TnC_rs"> privacy policy </span> of jobsslate.com</div>
