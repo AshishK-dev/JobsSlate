@@ -16,12 +16,13 @@
     .s_button_up{
         font-size: 10px;
         padding: 1px 1px 1px 1px;
+        font-weight: 600;
     }
     .Gsign{
        margin-left: 5px;
     }
     .Head_rs{
-        margin-left: 40px;
+        margin-left: 64px;
     }
     .Signups_btns{
         display: flex;
@@ -29,9 +30,12 @@
         margin-left: 65px;
     }
     .ip_signup{
-        border: 1px solid  #CCCCCC;
-        border-radius: 5px;
+        border: transparent
     }
+    .ip_signup,
+    .ip_signup::placeholder {
+    font-size: 14px;
+}
     .SignIns_btn{
         border-radius: 25px;
         width:140px;
@@ -48,13 +52,14 @@
     .text_rs{
         color: #0084CE;
     }
-    .alert_btn_rs{
+    .alert_btn_sp{
         border-radius: 25px;
         border: 0px solid #0084CE;
         background-color: #0084CE;
         color: aliceblue;
         width: 250px;
         height: 35px;
+        padding: 4px 90px;
     }
     .TnC_rs{
         color: #0084CE;
@@ -103,9 +108,14 @@
     .smallfont{
         font-size: x-small;
         color: #808080;
+        font-weight: 600;
     }
     .fSize{
         font-size: small;
+        font-weight: 600;
+    }
+    .exp_sp{
+        font-weight: 600;
     }
     .dLog{
         color: #0084CE;
@@ -122,4 +132,21 @@
         border: 1px solid black;
          
     }
-    
+   .enclosed{
+    display: flex;
+    align-items: center;
+    border: 1px solid  #CCCCCC;
+    border-radius: 5px;
+    gap: 5px;
+   }
+   .Usign{
+    margin-left: 5px;
+   }
+   .dBold{
+    font-size: smaller;
+    font-weight: 600;
+   }
+   .fWeight{
+    font-weight: 600;
+    color: white;
+   }

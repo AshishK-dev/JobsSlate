@@ -20,7 +20,7 @@ const Locate = () => {
           <img className="locCompass" src={Compass} alt="compasd" />
         </div>
         <div className="country-container">
-          <Link to={"/search"}>
+          <Link to={"/search" } style={{ textDecoration: 'none' }}>
           <div className="country-box">
             <img src={IndiaFlag} alt="text" style={{ width: 60, height: 40 }} />
             <span className="n_words"> India</span>
@@ -30,7 +30,7 @@ const Locate = () => {
            
            </div>
            </Link>
-           <Link to={"/search"}>
+           <Link to={"/search"} style={{ textDecoration: 'none' }}>
           <div className="country-box ">
             <img
               src={UnitedStates}
@@ -42,7 +42,7 @@ const Locate = () => {
            <div className="job_footers"><span className="n_words"> Million jobs </span></div>
           </div>
           </Link>
-          <Link to={"/search"}>
+          <Link to={"/search"} style={{ textDecoration: 'none' }}>
           <div className="country-box">
             <img
               src={CanadaFlag}
@@ -54,7 +54,7 @@ const Locate = () => {
            <div className="job_footers"><span className="n_words"> Hundred thousand jobs </span></div>
           </div>
           </Link>
-          <Link to={"/search"}>
+          <Link to={"/search"} style={{ textDecoration: 'none' }}>
           <div className="country-box">
             <img src={UkFlag} alt="text" style={{ width: 60, height: 40 }} />
             <span className="n_words">UnitedKingdom</span>

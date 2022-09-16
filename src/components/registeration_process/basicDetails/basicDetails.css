@@ -21,8 +21,8 @@
   border: 2px solid black;
   width: 20px;
 }
-.firstBar{
-    border: 2px solid grey;
+.firstBa{
+    border: 2px solid #CCCCCC;
     width: 250px;
 }
 .bggreen{
@@ -51,6 +51,7 @@
 }
 .head_bd{
     font-size: 20px;
+    font-weight: 600;
 }
 .sHead{
     font-size: small;
@@ -69,17 +70,22 @@
     display: flex;
     margin-top: 20px;
     margin-left: 20px;
+    gap: 5px;
 }
 .fullName_bd{
     display: block;
 }
-.e_bd{
+.e_bd {
     font-size: 13px;
     color:#808080;
+    font-weight: 600;
 }
 .ip_bd{
-    border: 1px solid;
-    border-color: #CCCCCC;
+  border: none;
+}
+.ip_bd,
+    .ip_bd::placeholder {
+    font-size: 14px;
 }
 .changePass_bd{
     margin-left: 15px;
@@ -87,6 +93,7 @@
 }
 .cPass{
     font-size: large;
+    font-weight: 600;
 }
 .passCode_bd{
     display: flex;
@@ -95,6 +102,7 @@
 }
 .p_bd{
     display: block;
+    font-weight: 600;
 }
 .entryPassword_bd{
     margin-left: 15px;
@@ -114,13 +122,33 @@
     border-radius: 50px;
     background-color: #0084CE;
     color: white;
-    border: 1px solid #0084CE;   
+    border: 1px solid #0084CE;  
+    padding: 3px 30px 3px; 
+}
+.cancel_btn_bd{
+    margin-top: -4px;
 }
 .Cancel_BD{
-    width: 100px;
-    height: 35px;
+    width: 85px;
+    height: 30px;
     border-radius: 50px;
     background-color: white;
     color:  #0084CE;
     border: 1px solid white;
+    
+}
+.svv_bd{
+    font-weight: 600;
+    color: #0084CE;
+}
+.sv_bd{
+    font-weight: 600;
+    color:white;
+}
+.encDivision{
+    display: flex;
+    align-items: center;
+    border: 1px solid  #CCCCCC;
+    border-radius: 5px;
+    gap: 5px;
 }

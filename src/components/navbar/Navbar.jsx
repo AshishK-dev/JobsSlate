@@ -10,17 +10,18 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="logo"><img src={logo} width="150px" height="25px" /></div>
             <ul>
-                <li><a href="#">Find a job</a></li>
-                <li><a href="#">Find talent</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Location</a></li>
+                <li><a href="#"><span className='link_nav'>Location</span></a></li>
+                <li><a href="#"><span className='link_nav'>Services</span></a></li>
+                <li><a href="#"><span className='link_nav'>About</span></a></li>
+                <li><a href="#"><span className='link_nav'>Find a job</span></a></li>
 
             </ul>
-            <div className="dropdown">
-                <button className='lang_select'><img src={ukflag} alt="text" width="15" height="10" />
-                    USA </button>
+            <div className="dropdown_nav">
+                <button className='btn_option'>Login</button>
+                <button className='btn_option_r'>Register</button>
+                
             </div>
+            <div className="recLogin"></div>
 
         </nav>
     </header>

@@ -29,7 +29,7 @@ const EduInfo = () => {
             <div className="qualification">
             <label htmlFor="highest_qualification">
             Highest qualification </label>
-            <button className='quali_ed'> Graduation/Diploma </button>
+            <button className='quality_ed'> Graduation/Diploma </button>
             <div className="suggesteion_ed">
              <div className="sug_edu"> <span className='suggest_edu'> Suggestions</span></div>
             <div className="option_container">
@@ -64,7 +64,7 @@ const EduInfo = () => {
             </div>
             </div>
             <div className="submit_continue">
-            <Link to="/head" className='quali_ed'> Save and continue </Link>
+            <Link to="/head" className='quality_ed' style={{ textDecoration: 'none' }}><span className='svan_ed'>Save and continue </span></Link>
             </div>
             </div>
             </div>

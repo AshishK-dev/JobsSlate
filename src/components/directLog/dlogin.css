@@ -1,0 +1,145 @@
+.self_container_rs{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    }
+    .log_details_dl{
+        margin-left: 200px;
+        width: 400px;
+        height: 450px;
+        justify-content: center;
+        margin-top: 30px;
+        background: white;         
+    }
+    .s_button_up{
+        font-size: 10px;
+        padding: 1px 1px 1px 1px;
+        font-weight: 600;
+    }
+    .Gsign{
+       margin-left: 5px;
+    }
+    .Head_rs{
+        margin-left: 64px;
+    }
+    .Signups_btns{
+        display: flex;
+        gap: 10px;
+        margin-left: 65px;
+    }
+    .ip_signup,
+    .ip_signup::placeholder {
+    font-size: 14px;
+}
+
+    .SignIns_btn{
+        border-radius: 25px;
+        width:140px;
+        height:35px;
+        border-color: #0084CE;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #0084CE;
+        
+    }
+  
+    .text_rs{
+        color: #0084CE;
+    }
+    .alert_btn_dl{
+        border-radius: 25px;
+        border: 0px solid #0084CE;
+        background-color: #0084CE;
+        color: aliceblue;
+        width: 275px;
+        height: 35px;
+        padding: 4px 90px;
+    }
+    .TnC_rs{
+        color: #0084CE;
+    }
+    .signup_Details_rs{
+        width: 260px;
+        height: 500px;
+        margin-left: 30px;
+        margin-top: -10px;
+        padding: 40px;
+    }
+    .Entries_rs{
+        margin-bottom: 15px;
+    }
+    .Terms_rs{
+        font-size: 11px;
+        color: grey;
+    }
+    .duration{
+        display: flex;
+        gap: 10px;
+    }
+    .duration_sp{
+        padding: 8px;
+        background-color: white;
+        border: 1px solid #0084CE;
+        border-radius: 5px;
+    }
+    .resume_sp{
+        display: block;
+        margin-bottom: 15px;
+        border-radius: 25px;
+        border: 0px solid #0084CE;
+        background-color: #0084CE;
+        color: aliceblue;
+        width: 120px;
+        height: 35px;
+    }
+    .Entries_sp{
+        display: block;
+    }
+    .res_option{
+        display: flex;
+        gap: 7px;
+    }
+    .smallfont{
+        font-size: x-small;
+        color: #808080;
+        font-weight: 600;
+    }
+    .fSize{
+        font-size: small;
+        font-weight: 600;
+    }
+    .exp_sp{
+        font-weight: 600;
+    }
+    .dLog{
+        color: #0084CE;
+    }
+    .loginDirect{
+        margin-left: 50%;
+        margin-top: 50px;
+    }
+    .line_sp{
+        display: flex;
+        justify-content: space-between;
+    }
+    .line_sm{
+        border: 1px solid black;
+         
+    }
+    ::-webkit-placeholder {
+        font-size: 10px;
+        color: red;
+    }
+    .diffOption{
+        text-align: center;
+        color: #808080;
+    }
+    .enclosed{
+        display: flex;
+        align-items: center;
+        border: 1px solid  #CCCCCC;
+        border-radius: 5px;
+        gap: 5px;
+    }

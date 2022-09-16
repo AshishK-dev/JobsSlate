@@ -4,7 +4,9 @@ import Magnifier from "../../assests/iconsnvectors/search@72x.png";
 import Location_emoji from "../../assests/iconsnvectors/locationsymbol.png";
 import Bground from "../../assests/iconsnvectors/BGround.svg";
 import NexGen from "../../assests/iconsnvectors/nexgeniot.jpg";
-import Time_piece from '../../assests/iconsnvectors/time@72x.png'
+import Time_piece from '../../assests/iconsnvectors/time@72x.png';
+import AlBell from "../../assests/jobsSlate icons/Icons_alert.png";
+import Arrow from "../../assests/jobsSlate icons/Icons_drop_down.png"
 import {Link} from 'react-router-dom'
 
 const Job_suggestions = () => {
@@ -14,6 +16,7 @@ const Job_suggestions = () => {
         className="background_jl"
         style={{ backgroundImage: `url(${Bground})`, height: "100vh" }}
       >
+        
         <div className="search-box-container_jl">
             <div className="search-box_jl">
                 <div className="Bar_jl">
@@ -26,17 +29,21 @@ const Job_suggestions = () => {
             </div>
             <div className="job_search_jl"> <button className='search_btn_js'>Search</button></div>
             </div>
-            <div className="custom_alert_jl"> <button className='cs_alert_btn_js'>Custom job alerts</button></div>
+            <div className="custom_alert_jl"> <button className='cs_alert_btn_jl'><img src = {AlBell} alt="text" style={{ width: 20, height:20,}} />  Custom job alerts</button></div>
 
         </div>
+        
         <div className="secondary_container">
+        <div className="mtOP">
           <div className="all_filters"><span className="f_jl"> All filters</span>
           <div className="filter_container">
+            <div className="fill_jl">
             <div className="loc_filter">
               <div className="locate_jl">Location</div>
-              <div className="loc_bttn"><button className="locDrop">^</button></div>
+              <div className="loc_bttn"><button className="locDrop"><img src = {Arrow} alt="text" style={{ width: 20, height:20,}} /></button></div>
               </div>
               <div className="locnames">
+                <div className="optName">
                 <div className="locPune">
                 <div className="pune_jl" >
                 <input type="checkbox" id="location1`" name="position1" value="city"/>
@@ -95,50 +102,53 @@ const Job_suggestions = () => {
                 </div>
                 <div className="more_suggestions"><span className="more_cities"> +25 more locations </span> </div>
                 <div className="partition_line"></div>
-                
+                </div>
               </div>
               <div className="salary_filter">
               <div className="salary_jl">Salary</div>
-              <div className="sal_bttn"><button className="locDrop">V</button></div>
+              <div className="sal_bttn"><button className="locDrop"><img src = {Arrow} alt="text" style={{ width: 20, height:20,}} /></button></div>
               </div>
               <div className="partition_line"></div>
               <div className="exp_filter">
               <div className="exp_jl">Expierence</div>
-              <div className="exp_bttn"><button className="locDrop">V</button></div>
+              <div className="exp_bttn"><button className="locDrop"><img src = {Arrow} alt="text" style={{ width: 20, height:20,}} /></button></div>
               </div>
               <div className="partition_line"></div>
               <div className="jt_filter">
               <div className="jt_jl">Job type</div>
-              <div className="loc_bttn"><button className="locDrop">V</button></div>
+              <div className="loc_bttn"><button className="locDrop"><img src = {Arrow} alt="text" style={{ width: 20, height:20,}} /></button></div>
               </div>
               <div className="partition_line"></div>
               <div className="postedBy_filter">
               <div className="posted_jl">Posted by</div>
-              <div className="posted_bttn"><button className="locDrop">V</button></div>
+              <div className="posted_bttn"><button className="locDrop"><img src = {Arrow} alt="text" style={{ width: 20, height:20,}} /></button></div>
               </div>
               <div className="partition_line"></div>
               <div className="edu_filter">
               <div className="edu_jl">Education</div>
-              <div className="edu_bttn"><button className="locDrop">V</button></div>
+              <div className="edu_bttn"><button className="locDrop"><img src = {Arrow} alt="text" style={{ width: 20, height:20,}} /></button></div>
               </div>
               <div className="partition_line"></div>
               <div className="industries_filter">
               <div className="industry_jl">Industries</div>
-              <div className="inds_bttn"><button className="locDrop">V</button></div>
+              <div className="inds_bttn"><button className="locDrop"><img src = {Arrow} alt="text" style={{ width: 20, height:20,}} /></button></div>
               </div>
               <div className="partition_line"></div>
           </div>
-          
           </div>
+          </div>
+          
           <div className="lists_con">
-            <div className="s_results"><span className="f_jl">Showing results for delivery driver jobs.</span>
+          {/* <div className="s_results"><span className="f_jl">Showing results for delivery driver jobs.</span> */}
           <div className="suggestions_jl">
                     <h3 className="js" >Java developer with AWS cloud</h3>
                     <div className="kompany_jl">
-                        <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>NexGen Iot Solutions,LLC</div>
-                        <div className="kompany_loc_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>Jersy city,NJ,USA</div>
+                      <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/><span className="ng_jol"> NexGen Iot Solutions,LLC</span></div>
+                        <div className="kompany_loc_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/><span className="ng_jol">Jersy city,NzJ,USA</span></div>
                     </div>
-                    <div className="job_details_jl"><Link to ="/job-description" className='details_btn_js'>View details</Link></div>
+                    <div className="job_details_jl">
+                      <Link to ="/job-description"  className='details_btn_jl' style={{ textDecoration: 'none' }}><span className="vws"> View details</span></Link>
+                      </div>
                     <div className="jobContent_jl">
                     <div className="nameConv_jl">
                     <div className="jobType_jl">Job type:<span className="fontTime">Full time</span></div>
@@ -157,7 +167,7 @@ const Job_suggestions = () => {
                 <div className="suggestions_jl">
                     <h3 className="js" >Java developer with AWS cloud</h3>
                     <div className="kompany_jl">
-                        <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>NexGen Iot Solutions,LLC</div>
+                        <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/><span className="ng_jol"> NexGen Iot Solutions,LLC</span></div>
                         <div className="kompany_loc_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>Jersy city,NJ,USA</div>
                     </div>
                     <div className="job_details_jl"><button className='details_btn_js'>View details</button></div>
@@ -178,7 +188,7 @@ const Job_suggestions = () => {
                 <div className="suggestions_jl">
                     <h3 className="js" >Java developer with AWS cloud</h3>
                     <div className="kompany_jl">
-                        <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>NexGen Iot Solutions,LLC</div>
+                        <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/><span className="ng_jol"> NexGen Iot Solutions,LLC</span></div>
                         <div className="kompany_loc_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>Jersy city,NJ,USA</div>
                     </div>
                     <div className="job_details_jl"><button className='details_btn_js'>View details</button></div>
@@ -199,7 +209,7 @@ const Job_suggestions = () => {
                 <div className="suggestions_jl">
                     <h3 className="js" >Java developer with AWS cloud</h3>
                     <div className="kompany_jl">
-                        <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>NexGen Iot Solutions,LLC</div>
+                        <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/><span className="ng_jol"> NexGen Iot Solutions,LLC</span></div>
                         <div className="kompany_loc_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>Jersy city,NJ,USA</div>
                     </div>
                     <div className="job_details_jl"><button className='details_btn_js'>View details</button></div>
@@ -220,7 +230,7 @@ const Job_suggestions = () => {
                 <div className="suggestions_jl">
                     <h3 className="js" >Java developer with AWS cloud</h3>
                     <div className="kompany_jl">
-                        <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>NexGen Iot Solutions,LLC</div>
+                        <div className="company_ng_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/><span className="ng_jol"> NexGen Iot Solutions,LLC</span></div>
                         <div className="kompany_loc_jl"><img src = { Location_emoji } alt= "text" style={{ width: 13, height:13}}/>Jersy city,NJ,USA</div>
                     </div>
                     <div className="job_details_jl"><button className='details_btn_js'>View details</button></div>
@@ -240,8 +250,9 @@ const Job_suggestions = () => {
                 </div>
                 
             
-                </div>
+                {/* </div> */}
           </div>
+        </div>
         </div>
       </div>
     </>

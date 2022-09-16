@@ -19,13 +19,12 @@
     border-radius: 20px;
     margin-top: 25px;
   }
-  .cs_alert_btn_js{
+  .cs_alert_btn_jl{
     border-radius: 25px;
     border: 0px solid #0084ce;
     background-color: #0084ce;
     color: aliceblue;
-    width: 200px;
-    height: 48px;
+    padding: 10px;
     margin-top: 25px;
     margin-left: 15px;
     font-size: 20px;
@@ -52,15 +51,42 @@
     width: 15px;
     height: 15px;
   }
+  .details_btn_jl{
+    border-radius: 25px;
+    border: 1px solid #0084ce;
+    background-color: #0084ce;
+    color: aliceblue;
+    width: 120px;
+    height: 40px;
+    margin-left: 85%;
+    padding: 4px 12px 7px;
+    position: relative;
+    top: -55px;
+  }
+  .vws{
+    color: white;
+    font-size: small;
+  }
   .secondary_container{
-    display: flex;
+    /* display: flex;
     gap: 45px;
     margin-top: 35px;
     justify-content: center;
-    background-color: white;
+    background-color: white; */
   }
+  .mtOP{
+    display: flex;
+    gap: 45px;
+    
+    background-color: white;
+    justify-content: center;
+  }
+  
 .f_jl{
-  font-size: 22px;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+  font-weight: 700;
 }
 .loc_filter{
   display: flex;
@@ -70,6 +96,7 @@
   display: block;
   font-size: small;
   color: #808080;
+  
 }
 .number_pune{
   color: #666666;
@@ -78,6 +105,8 @@
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+  font-weight: 600;
+  color: #666666;
 }
 .more_cities{
   color: #0084ce;
@@ -92,6 +121,7 @@
     width: 300px;
     height: 650px;
     border: 1px solid   #e5e5e5;
+    margin-top: 50px;
     
   }
   .salary_filter{
@@ -124,6 +154,15 @@
     justify-content: space-between;
     margin-top: 15px;
   }  
+  .mtOP{
+    margin-top: 10px;
+  }
+  .lists_con{
+    margin-top: 63px;
+  }
+  .ng_jol{
+    font-size: 15px;
+  }
   .suggestions_jl{
     display: block;
     border: 1px solid #e5e5e5;
@@ -131,7 +170,7 @@
     width: 1000px;
     text-align: center;
     background-color: white ;
-    margin-top: 10px;
+    margin-top: 15px;
     box-shadow: 0.25px 0.5px #333333;
   
   }
@@ -201,4 +240,35 @@
     text-align: left;
     position: relative;
     top: -10px;
+  }
+  .locDrop{
+    border: none;
+    background: transparent;
+  }
+  .optName{
+    padding: 5px 4px 5px 5px;
+  }
+  .locate_jl{
+    font-weight: 500;
+  }
+  .fill_jl{
+    padding: 10px;
+  }
+  .salary_jl{
+    font-weight: 500;
+  }
+  .exp_jl{
+    font-weight: 500;
+  }
+  .jt_jl{
+    font-weight: 500;
+  }
+  .posted_jl{
+    font-weight: 500;
+  }
+  .edu_jl{
+    font-weight: 500;
+  }
+  .industry_jl{
+    font-weight: 500;
   }

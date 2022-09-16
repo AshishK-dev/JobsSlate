@@ -12,18 +12,18 @@ import IntialInfo from "./components/registeration_process/basicDetails/basicDet
 import Emp_info from "./components/registeration_process/employment/employment";
 import EduInfo from "./components/registeration_process/education/educaion";
 import Head_pref from "./components/registeration_process/laststep/head_pref"; 
-
-
+import LandPage from "./components/newlandingpage/lanPage";
+import Dlogin from "./components/directLog/dlogin";
 const App = () => {
   return (
     <div className="main-app-container">
-      <BrowserRouter>
+      <Navbar/>
+       <BrowserRouter>
       <Routes>
       <Route path="/" element={<Locate/>}/>
       <Route path="/job-suggestion" element={<Job_suggestions/>}/>
       <Route path="/job-description" element={<Jobdescription/>}/>
       <Route path="/search" element={<Searchbar/>}/>
-      <Route path="/company_signup" element={<Company_Signup/>}/>
       <Route path="/initial_info" element={<IntialInfo/>}/>
       <Route path="/profile" element={<Profile/>}/>
       <Route path="/signup" element={<User_Signup/>}/>
@@ -31,24 +31,16 @@ const App = () => {
       <Route path="/emp_info" element={<Emp_info/>}/>
       <Route path="/EduInfo" element={<EduInfo/>}/>
       <Route path="/head" element={<Head_pref/>}/>
-      
-
-
-
-
-      Head_pref      
-      
-      
-      <Searchbar/>
-      <Jobdescription/>
-      <Company_Signup/>
-      <Profile/>
+      <Route path="/profile" element={<Profile/>}/>
+        
     
       </Routes>
-      </BrowserRouter>
-       
-        
-    </div>
+      </BrowserRouter>  
+{/*        
+       <Navbar/>
+       <Profile/> */}
+    
+            </div>
   );
 };
 

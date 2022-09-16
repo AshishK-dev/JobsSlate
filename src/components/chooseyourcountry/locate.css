@@ -43,11 +43,13 @@ height: 300px;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    
 
     /* position: relative;
     bottom: 85px; */
 
 }
+
 .country-box{
 width: 200px;
 height: 200px;

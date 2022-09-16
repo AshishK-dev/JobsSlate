@@ -1,7 +1,8 @@
 .search-box-container_jd{
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+     
   } 
 
   .search-box_jd{
@@ -18,6 +19,7 @@
   }
   .details_btn_js1{
     border-radius: 25px;
+    padding: 3px 14px 5px;
     border: 0px solid #0084ce;
     background-color: #0084ce;
     color: aliceblue;
@@ -27,13 +29,18 @@
     position: relative;
     top: -55px;
   }
-  .cs_alert_btn_js{
+  .applyButton_jd{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+  }
+  .cs_alert_btn_jd{
     border-radius: 25px;
     border: 0px solid #0084ce;
     background-color: #0084ce;
     color: aliceblue;
     width: 200px;
-    height: 48px;
+    height: 45px;
     margin-top: 25px;
     margin-left: 15px;
     font-size: 20px;
@@ -69,15 +76,18 @@
     
     
   }
+  .jobClock_jd{
+    margin-left: 70px;
+  }
   .main_container_jd{
     display: flex;
-    height: 60%;
+    height: 80%;
     gap: 25px;
   }
 .suggestions_jd{
     display: block;
     border: 1px solid whitesmoke;
-    height: 700px;
+    height: 725px;
     width: 900px;
     
     text-align: center;
@@ -104,9 +114,10 @@
     box-shadow: 2px 6px 2px 6px gray;
 }
 .line_jd{
-    border: 2px solid whitesmoke;
+    border: 1px solid whitesmoke;
    position: relative;
-   bottom: 30px;
+   bottom: 20px;
+   
 }
 .sidebar{
     width: 30%;
@@ -115,7 +126,7 @@
 }
 .wClient_jd{
     margin-top: 5px;
-    
+    text-align: left;
 }
 
 .j_result_row1{
@@ -152,14 +163,15 @@
 
 }
 .similar_positions_job1{
-    border: 0.5px solid whitesmoke;
-    box-shadow: 0.25px 0.5px whitesmoke;
+    border: 0.5px solid #3333334D;
+    box-shadow: 1px 1px  #3333334D;
     color: #0084CE;
     margin-top: 15px;
     width: 300px;
     height: 50px;
     background: white;
     margin-left: 5px;
+    border-radius: 3px;
     
     
    
@@ -196,12 +208,14 @@ margin-left: 25px;
 
 .fontTime_jd{
     font-weight: bold;
-    color: black;  
+    color: black; 
+    font-size: small; 
   }
 .jd_Title{
-    position: relative;
-    right: 40%;
-
+    margin-left: 9px;
+}
+.jtft_jd{
+  font-weight: 300;
 }
 .sp_font{
     font-size: 10px;
@@ -211,15 +225,56 @@ margin-left: 25px;
     
 }
 .line2_jd{
-    border: 2px solid whitesmoke;
+    border: 1px solid #3333334D;
+    margin-top: 20px;
 
 }
-
+.jb_details_jd{
+  margin-left: 8%;
+}
 .details_btn_js2{
     border-radius: 25px;
     border: 0px solid #0084ce;
     background-color: #0084ce;
     color: aliceblue;
     width: 100px;
-    height: 35px;
+    height: 31px;
+    margin-right: 86%;
+    margin-top: 25px;
+}
+.jobDescription_jd{
+  text-align: left;
+  padding-left: 5px;
+  margin-left: 8px;
+}
+.dd_jd{
+  margin-top: 25px;
+}
+.font_jd{
+  font-size: small;
+  font-weight: 500;
+}
+.headLeft{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.java_jd{
+  color: #0084CE;
+  font-weight: 700;
+  font-size: small;
+}
+.ng_jd{
+  font-size: smaller;
+}
+.nxg_jd{
+  color: #0084CE;
+  font-size: smaller;
+}
+.gfx{
+  color: #0084CE;
+  font-weight: 700;
+}
+.similarPositions{
+  margin-left: 5px;
+  margin-top: 15px;
 }

@@ -133,7 +133,7 @@ const Emp_info = () => {
             </div>
             <div className="SnA">
                 <div className="SnA_btn">
-                    <Link to="/EduInfo" className="saveNcontuniue">Save and continue</Link>
+                    <Link to="/EduInfo" className="saveNcontuniue" style={{ textDecoration: 'none' }}>Save and continue</Link>
                 </div>
             </div>
             </div>

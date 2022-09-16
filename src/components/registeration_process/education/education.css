@@ -66,16 +66,19 @@
 .heading_edu{
     margin-left: 20px;
 }
-.quali_ed{
+.quality_ed{
   display: block;
   border-radius: 25px;
-  font-weight: bold;
+  color: white;
   border: 0px solid #0084ce;
   background-color: #0084ce;
-  color: aliceblue;
-  width: 160px;
-  height: 30px;
+  width: 140px;
   margin-top: 10px; 
+  padding: 4px  ;
+}
+.svan_ed{
+    font-weight: 500;
+    color: white;
 }
 .S_quali_ed{
    display: block;

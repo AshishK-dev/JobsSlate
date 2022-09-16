@@ -4,9 +4,11 @@
     height: 160px;
     margin-left: 10%;
     background-color:white;
+    border: 1px solid #3333334D;
+    
 }
+
 .profilePix{
-    border: 1px solid green;
     border-radius: 50px;
     background-color:#808080;
     margin-left: 20px;
@@ -21,11 +23,21 @@
     margin-left: 10px;
 }
 .fHead{
-    font-size: 30px;
+    font-size: 22px;
+    margin-left: 12px;
+    font-weight: 700;
 }
 .sHead{
     font-size: 15px;
     color: #808080;
+    font-weight: 600;
+}
+.secondHeading{
+    margin-top: 10px;
+}
+.info_prof{
+    font-size: 13px;
+    font-weight: 600;
 }
 .infoBox_prof{
     display: flex;
@@ -62,22 +74,28 @@ margin-bottom: 10px;
     width: 220px;
     height: 500px;
     background-color: white;
+    border: 1px solid #3333334D;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
 }
 .f_prof{
    margin-top: 18px;
    margin-left: 30px;
 
 }
-.resume_prof{
+.Resume_prof{
     display: flex;
-    color: #0084CE;  
-     
+    color: #0084CE;
+}
+.upd_prof{
+    color: white;
+    font-weight: 600;
 }
 .edu_prof{
     display: flex;
 }
 .resume_font{
     color: #0084CE;
+    font-weight:700 ;
 }
 .proj_prof{
     display: flex;
@@ -91,25 +109,32 @@ margin-bottom: 10px;
 .Resume_line_prof{
     font-size: small;
     color: #808080;
+    font-weight: 550;
 }
 .resume_upload{
     width: 735px;
     background-color: white;
     height: 670px;
+    margin-top: 0px;
+    border: 1px solid #3333334D;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+
 }
 .R_2022_prof{
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 550;
+}
+.ud_prof{
+    font-weight: 300;
 }
 .RS_prof{
     margin-top: 1px;
-    margin-left: 10%;
+    margin-left: 5%;
     
 }
 .Resume_up_prof{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 18px;
-    
-    
 }
 .downdel{
     display: flex;
@@ -118,9 +143,13 @@ margin-bottom: 10px;
 }
 .Down_Del{
     color: #0084CE;
+    font-size: smaller;
+    font-weight: 650;
 }
 .Del_down{
     color: #FF8181;
+    font-size: smaller;
+    font-weight: 650;
 }
 .upResume_prof{
     width: 250px;
@@ -136,6 +165,367 @@ margin-bottom: 10px;
     border: #0084CE;   
 }
 .format_prof{
+    font-size: 10px;
+    color: #808080;
+    font-weight: 500;
+
+}
+.down_prof{
+   position: relative;
+   top: 30px;
+     
+
+}
+.r_prof_head{
+    border: 1px solid #3333334D;
+    height: 140px;
+    margin-top: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+}
+.c_prof_head{
+    border: 1px solid #3333334D;
+    height: 140px;
+    margin-top: 19px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+}
+.portf_head{
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.adProj_prof{
+    margin-top: 22px;
+    font-weight: 600;
+}
+.pjj_prof{
+    font-size: small;
+    color: #0084CE;
+}
+.educa_prof{
+    font-weight: 700;
+}
+.deg_dets{
+    font-size: smaller;
+    color: #808080;
+    font-weight: 500;
+}
+.deg_prof{
+    margin-left: 5%;
+}
+.k_skill_prof{
+    height: 140px;
+    border: 1px solid #3333334D;
+    margin-top: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+}
+.skillName{
+    display: flex;
+}
+.k_skl_prof{
+    margin-left: 5%;
+}
+.ui_prof{
+    margin-left: 3%;
+    border-radius: 20px;
+    height: 28px;
+    width: 138px;
+    background-color: #0084CE;
+    color: white;
+    border: #0084CE;
+}
+.f_ui_prof{
+    margin-left: 3%;
+    border-radius: 20px;
+    height: 28px;
+    width: 145px;
+    background-color: #0084CE;
+    color: white;
+    border: #0084CE;
+}
+.s_ui_prof{
+    margin-left: 3%;
+    border-radius: 20px;
+    height: 28px;
+    width: 100px;
+    background-color: #0084CE;
+    color: white;
+    border: #0084CE;
+}
+.t_ui_prof{
+    margin-left: 3%;
+    border-radius: 20px;
+    height: 28px;
+    width: 75px;
+    background-color: #0084CE;
+    color: white;
+    border: #0084CE;
+}
+.sFont_prof{
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+    
+}
+.employ_prof{
+    display: flex;
+    justify-content: space-between;
+}
+.aDD_emp{
+    font-size:small;
+    color: #0084CE;
+    margin-right: 30px;
+    font-weight: 650;
+    
+}
+.Aemp_prof{
+    margin-top: 18px;
+}
+.mEmp_prof{
+    height: 420px;
+    border: 1px solid #3333334D;
+    margin-top: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+    
+}
+.em_prof{
+    margin-left: 5%;
+}
+.des_prof{
+    margin-left: 5%;
+}
+.de_prof{
+    font-size: smaller;
+    font-weight: 700;
+
+}
+.dd_prof{
+    font-size:12px;
+    color:#808080 ;
+    font-weight: 600;
+}
+.desprof_prof{
+    width: 169px;
+    height: 130px;
+    
+        margin-left: 5%;
+    }
+    .uis_descrip{
+        margin-top: 25px;
+}
+.proj_Prof{
+    font-size: 22px;
+}
+.rHead_profile{
+
+}
+.k_skl_prof{
+    font-weight: 500px;
+}
+.mE_mp_prof{
+    height: 280px;
+    border: 1px solid #3333334D;
+    margin-top: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+}
+.despr_of_prof{
+    width: 115px;
+    height: 50px;
+    margin-left: 5%;
+}
+.educa_prof{
+    color: #0084CE;
+    font-size: small;
+}
+.masters_prof{
+    margin-left: 5%;
+    margin-top: 12px;
+}
+.masProfile{
+    margin-top: 36px;
+    
+}
+.it_prof{
+    height: 300px;
+    border: 1px solid #3333334D;
+    margin-top: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+}
+.its_prof{
+    display: flex;
+    justify-content: space-between;
+}
+.aDetails_prof{
+    margin-top: 18px;
+}   
+.itSkills{
+    margin-left: 5%;
+}
+.ss_prof{
+    font-size: small;
+
+}
+.fField{
+font-size: small;
+}
+.mProf{
+    margin-top: 21px;
+}
+.cField{
+    font-size: x-small;
+    color: #333333;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+.fField{
+    padding-top: 2px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.tab_prof{
+    width: 100%;
+    margin-left: 4.5%;
+}
+.adProj_prof{
+    font-size:x-small;
+    color: #0084CE;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.proj_prof_head{
+    border: 1px solid #3333334D;
+    height: 190px;
+    margin-top: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+}
+.read_drop{
+    color: #0084CE;
+}
+.accomp_prof{
+    border: 1px solid #3333334D;
+    margin-top: 15px;
+    height: 735px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+}
+.acc_profile{
+    margin-left: 5%;
+}
+.op_prof{
+    display: flex;
+    justify-content: space-between;
+}
+.aDD_emp_prof{
+    font-size: smaller;
+    color: #0084CE;
+    margin-right: 30px;
+    font-weight: 700;
+}
+.addLink{
+    font-size: smaller;
+    margin-top: 7px;
+}
+.line_profile{
+    border: 0.5px solid  #e5e5e5;
+    margin-top: 12px;
+    
+}
+.on_prof{
+    margin-top: 18px;
+}
+.textProfile{
     font-size: small;
     color: #808080;
+    font-weight: 550;
+}
+.dip_prof{
+    margin-top: 18px;
+}
+.cpProf_marg{
+margin-left: 5%;
+}
+.cpInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+.cid_prof{
+    display: block;
+}
+.id_prof{
+    display: block;
+}
+.opAdd{
+    font-weight: 700;
+}
+.currIn{
+    font-size: small;
+    color: #808080;
+    font-weight: 500;
+}
+.ciSpecific{
+    font-weight: 600;
+}
+.cpProfile{
+    border: 1px solid #3333334D;
+    margin-top: 15px;
+    height: 485px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+}
+.perDetails_prof{
+    margin-left: 5%;
+}
+.phy_prof{
+    margin-top: 15px;   
+}
+.editOption{
+   transform: translate(-27px,-3px)
+}
+.atd{
+    font-weight: 600;
+}
+.addLink{
+    font-weight: 500;
+}
+.pdProf{
+    border: 1px solid #3333334D;
+    margin-top: 15px;
+    height: 650px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px  #e5e5e5;
+}
+.addBreak_prof{
+color: #0084CE;
+}
+.i_prof1{
+    margin-right: 10px;
+}
+.slash{
+    color: transparent;
+}
+cInfo1{
+    
+}
+.tabLP{
+    margin-top: 50px;
+    margin-left: -50px;
+}
+.lpEntries{
+    
+}
+
+.langPro{
+    padding-top: 2px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: smaller;
+    padding-left: 50px;
+        
+}
+.langProf{
+    font-size: small;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
+}
+.rowProfile{
+    
 }

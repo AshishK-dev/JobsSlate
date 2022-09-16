@@ -26,11 +26,11 @@ const Head_pref = () => {
            <div className="detes_ed"> 
             <div className="qualification">
           <div className="rHead_hp"><span className='Rhead'>Resume headline</span>
-          </div>
+          </div> 
           <input className='resumeH_hp' type="text" placeholder="UI designer with BA in fine arts currently living in gurgaon" style = {{height:73, width:250}} />
             
             <div className="suggesteion_ed">
-             <div className="sug_edu"> <span className='suggest_edu'> Suggestions</span></div>
+             <div className="sug_edu"> <span className='suggest_HP'> Suggestions</span></div>
              <input className='resumeH_hp' type="text" placeholder="UI designer with BA in fine arts currently living in gurgaon" style = {{height:73, width:250}} />
             </div>
             </div>
@@ -60,7 +60,7 @@ const Head_pref = () => {
             </div>
             <div className="course_ed">
             
-            <div className="suggestion_hp"><span className='suggest_edu'> Suggestions</span>
+            <div className="suggestion_hp"><span className='suggest_HP'> Suggestions</span>
             <div className="option_container">
             <button className='S_quali_ed'> Option1 +</button>
             <button className='S_quali_ed'> Option2 +</button>
@@ -81,7 +81,7 @@ const Head_pref = () => {
             </div>
             </div>
             <div className="submit_continue_hp">
-            <Link to="/profile" className='quali_ed'> Save and continue </Link>
+            <Link to="/profile" className='quali_HP' style={{ textDecoration: 'none' }}> Save and continue</Link>
             </div>
             </div>
           
