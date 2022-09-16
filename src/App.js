@@ -13,6 +13,7 @@ import Emp_info from "./components/registeration_process/employment/employment";
 import EduInfo from "./components/registeration_process/education/educaion";
 import Head_pref from "./components/registeration_process/laststep/head_pref"; 
 
+
 const App = () => {
   return (
     <div className="main-app-container">
